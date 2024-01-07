@@ -1,12 +1,11 @@
-"use client"
-
-import Spline from '@splinetool/react-spline'
 import Image from 'next/image'
 import Link from 'next/link'
 import infoCards from './libs/InfoCards'
 import { CheckCheck, LucideIcon } from 'lucide-react'
 import { ReactElement } from 'react'
 import pricingCards from './libs/PricingCards'
+import SplineScene from './components/SplineScene'
+
 
 export default function Home() {
   return (
@@ -25,9 +24,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='w-full h-2/4 md:h-full md:w-3/5 flex items-center justify-center relative -z-10'>
-          <Spline className="w-full flex scale-[.25] sm:scale-[.35] lg:scale-[.5] items-center justify-center md:justify-start" scene='https://prod.spline.design/pvM5sSiYV2ivWraz/scene.splinecode'/>
-        </div>
+        <SplineScene/>
 
       </header>
 
