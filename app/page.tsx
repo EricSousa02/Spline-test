@@ -19,8 +19,8 @@ export default function Home() {
           </div>
           <p className='max-w-md text-sm md:text-base text-zinc-500'>A Insightful é uma ferramenta de otimização de vendas baseada em IA que fornece informações baseadas em dados para aumentar o desempenho das vendas.</p>
           <div className='w-full flex items-center justify-center md:justify-start gap-4'>
-            <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>Try 7 days free!</button>
-            <button className='w-48 h-12 text-sm sm:text-base rounded hover:bg-white hover:text-white hover:bg-opacity-5 transition-colors'>Contact</button>
+            <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>Teste 7 dias gratis!</button>
+            <button className='w-48 h-12 text-sm sm:text-base rounded hover:bg-white hover:text-white hover:bg-opacity-5 transition-colors'>Contato</button>
           </div>
         </div>
 
